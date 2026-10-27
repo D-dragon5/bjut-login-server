@@ -1,0 +1,6 @@
+[Unit]
+Description=Check BJUT wired portal login
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 %h/bjut-login-server/manager.py check

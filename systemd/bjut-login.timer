@@ -1,0 +1,10 @@
+[Unit]
+Description=Check BJUT wired portal every two minutes
+
+[Timer]
+OnStartupSec=2min
+OnUnitActiveSec=2min
+Unit=bjut-login.service
+
+[Install]
+WantedBy=timers.target

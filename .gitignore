@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+accounts.json
+credentials.json
+.config/bjut-login/
